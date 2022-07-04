@@ -42,6 +42,7 @@
     figure{
         display:none;
     }
+
     /************* CLASSES ***********/
 
     .btn {
@@ -175,6 +176,10 @@
        margin:-35% 0;
     }
 
+    table{
+        width:80%;
+    }
+
     /************* CLASSES ***********/
 
     .btn {
@@ -208,9 +213,10 @@
 
     .intern-square{
         background-color: white;
-        width: 80%;
+        width: 110%;
         border-radius: 15px;
         position: relative;
+        right: 70px;
     }
 
     .external-square{
