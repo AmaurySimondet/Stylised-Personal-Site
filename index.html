@@ -1,56 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Amaury Simondet</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Merriweather&family=Roboto+Condensed&family=Splash&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
 <body>
-    <div class="top-container">
-        <img class="top-cloud" src="images/cloud.png" alt="cloud1-img">
-        <h1>I'm Amaury.</h1>
-        <h2>a <span class="data">data</span> scientist.</h2>
-        <img class="bottom-cloud" src="images/cloud.png" alt="cloud2-img">
-        <img src="images/mountain.png" alt="mountain-img">
-    </div>
 
+  <div class="external-square">
+    <table class="intern-square">
+      <tr>
+        <td id="image-td-mobile">
+          <figure>
+            <img class="product-pic-mobile" src="images/image-product-desktop.jpg" alt="product-pic">
+          </figure>
+          </td>
+      </tr>
+      <tr>
+        <td id="image-td-desktop">
+          <img class="product-pic-desktop" src="images/image-product-desktop.jpg" alt="product-pic">
+        </td>
+        <td id="text-td">
+          <h3>Perfume</h3>
 
-    <div class="middle-container">
-      <div class="profile">
-        <img class="profile-pic" src="images/amaury-modified.png" alt="profile-pic">
-        <h2>Hello.</h2>
-        <p id="desc-p">Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
-      </div>
-      <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="skill-pic1" src="images/programmation.png" alt="programmation-pic">
-          <h3>Data Science & Programming</h3>
-          <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-        </div>
-        <div class="skill-row">
-          <img class="skill-pic2" src="images/electronic.png" alt="electronic-pic">
-          <h3>Signal Processing & Electronics</h3>
-          <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-        </div>
-      </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>If you love data as much as I do.</h3>
-        <p>Love data as much as I do? Let's talk about how awesome they are!</p>
-        <p id="button"> <a class="btn" href="mailto:amaury.simondet@hotmail.com">CONTACT ME</a> </p>
-      </div>
-    </div>
+          <h2>Gabrielle Essence Eau De Parfum</h2>
 
+          <p>A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.</p>
 
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/amaury-simondet-14b31b172/">LinkedIn</a>
-      <p id="end">© Amaury Simondet.</p>
-    </div>
+          <h1>$149.99</h1>
+          <p id="crossed">$169.99</p>
+
+          <p id="button"> <a class="btn" href="mailto:amaury.simondet@hotmail.com">🛒 Add to Cart</a> </p>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Amaury Simondet</a>.
+  </div>
 
 </body>
 </html>
